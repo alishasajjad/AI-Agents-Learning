@@ -412,7 +412,7 @@ Business AI Automation
 
 ---
 
-## 👩‍💻 Developer
+## 💻 Developer
 
 **Alisha Sajjad**
 
