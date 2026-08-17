@@ -6,6 +6,19 @@ This repository documents the complete journey of building multiple real-world A
 
 ---
 
+## 🔗 Quick Access
+
+🎙️ **[Policybazaar Customer Support Voice Agent](https://elevenlabs.io/app/talk-to?agent_id=agent_5301m05d4y6yets8kdg8jh6njm49&branch_id=agtbrch_9601m05d500zedetaazgqaz7j4vt)**
+
+💰 **[Overdue Invoice Payment Reminder Agent](https://agents.zapier.com/copy/f27633e2-51f9-47e6-961d-440cad49536f?utm_source=chatgpt.com)**
+
+📦 **Templates**
+
+- ⚙️ `AI-Startup-Branding-Agent-n8n.json`
+- 🛒 `ShopEase-Ecommerce-Agent-Langflow.json`
+
+---
+
 ## 📌 About This Repository
 
 This repository contains the notes, workflows, templates, and practical implementations created while learning **AI Agent Development**.
@@ -399,14 +412,27 @@ Business AI Automation
 
 ---
 
+## 👩‍💻 Developer
+
+**Alisha Sajjad**
+
+### Connect With Me
+
+📧 **Email:** [dev.alishasajjad@gmail.com](mailto:dev.alishasajjad@gmail.com)
+
+💼 **LinkedIn:** [linkedin.com/in/devalishasajjad](https://www.linkedin.com/in/devalishasajjad)
+
+---
+
+⭐ If you find this repository useful, consider giving it a **star** and following the repository for future projects.
+
 ## ⭐ Conclusion
 
 This repository represents a practical journey into **AI Agent Development**, starting from simple conversational and automation agents and progressing toward knowledge-based business support systems.
 
 The main focus is not only on building AI agents, but also on understanding **how AI agents can solve real-world business problems through LLMs, tools, automation, memory, and private knowledge sources**.
 
-> 🚀 **More AI Agent projects, workflows, and experiments will be added as I continue learning and building.**
-
+> 🚀 More AI Agent projects, workflows, and experiments will be added as I continue learning and building.
 ---
 
 ## 📄 License
