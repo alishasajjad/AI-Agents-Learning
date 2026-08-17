@@ -12,10 +12,28 @@ This repository documents the complete journey of building multiple real-world A
 
 💰 **[Overdue Invoice Payment Reminder Agent](https://agents.zapier.com/copy/f27633e2-51f9-47e6-961d-440cad49536f?utm_source=chatgpt.com)**
 
-📦 **Templates**
+📦 **Agent Templates**
 
-- ⚙️ `AI-Startup-Branding-Agent-n8n.json`
-- 🛒 `ShopEase-Ecommerce-Agent-Langflow.json`
+- ⚙️ [AI Startup Branding Agent — n8n](./AI-Startup-Branding-Agent-n8n.json)
+- 🛒 [ShopEase E-commerce Agent — Langflow](./ShopEase-Ecommerce-Agent-Langflow.json)
+
+## 📚 Learning Notebooks & Resources
+
+📖 **[AI Agent Introduction & Fundamentals](./01_AI_Agent_Introduction_and_Fundamentals.ipynb)**
+
+📖 **[Policy Bazaar Customer Support Agent](./02_Policy_Bazaar_Customer_Support_Agent.ipynb)**
+
+📖 **[Business Support Agent – Overdue Invoice Reminder](./03_Business_Support_Agent_Overdue_Invoice_Reminder.ipynb)**
+
+📖 **[AI Agent Sales & Monetization](./04_AI_Agent_Sales_and_Monetization.ipynb)**
+
+📖 **[AI Startup Branding Agent (n8n Workflow)](./05_AI_Startup_Branding_Agent_n8n_Workflow.ipynb)**
+
+📖 **[ShopEase E-commerce Agent (Langflow)](./06_ShopEase_Ecommerce_Agent_Langflow.ipynb)**
+
+📄 **[AI Startup Branding Agent Workflow JSON](./AI-Startup-Branding-Agent-n8n.json)**
+
+📄 **[ShopEase E-Commerce Support Agent JSON](./ShopEase E-Commerce Support Agent.json)**
 
 ---
 
@@ -426,7 +444,7 @@ Business AI Automation
 
 ⭐ If you find this repository useful, consider giving it a **star** and following the repository for future projects.
 
-## ⭐ Conclusion
+## Conclusion
 
 This repository represents a practical journey into **AI Agent Development**, starting from simple conversational and automation agents and progressing toward knowledge-based business support systems.
 
