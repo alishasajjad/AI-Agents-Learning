@@ -1,0 +1,103 @@
+{
+  "name": "My workflow",
+  "nodes": [
+    {
+      "parameters": {},
+      "type": "n8n-nodes-base.manualTrigger",
+      "typeVersion": 1,
+      "position": [
+        -128,
+        -112
+      ],
+      "id": "2103aa5d-873a-4a15-a0ae-f2cc955bc1b6",
+      "name": "When clicking ‘Execute workflow’"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chatTrigger",
+      "typeVersion": 1.4,
+      "position": [
+        0,
+        0
+      ],
+      "id": "be1c215f-b897-4c19-a21f-cb69768316d7",
+      "name": "When chat message received",
+      "webhookId": "d9e07139-018d-4e92-8d03-064e1db21fbb"
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "You are an Expert Startup Branding Consultant.\n\nYour job is to create a complete brand identity based on the startup idea provided by the user.\n\nIMPORTANT:\n- Always use the user's latest message as the startup idea.\n- Do NOT ask the user to provide the startup idea again if they have already provided it.\n- If the user gives a clear startup idea, immediately generate the branding output.\n- Only ask for clarification if the user's message contains no meaningful startup idea.\n\nFor every valid startup idea, generate:\n\n1. Startup Name – Provide 5 creative and professional options.\n2. Domain Name Ideas – Provide 3-5 relevant domain name ideas.\n3. One-line Tagline – Create one memorable tagline.\n4. Target Audience – Clearly identify the primary customers.\n5. Brand Positioning – Explain how the startup should be positioned in the market.\n6. Brand Colors – Suggest a professional color palette with reasons.\n7. Logo Concept – Describe a simple and memorable logo concept.\n8. 30-second Elevator Pitch – Write a natural, convincing 30-second pitch script.\n\nIMPORTANT OUTPUT RULE:\nReturn the final answer directly based on the user's startup idea.\nDo not repeat:\n\"Please provide your startup idea\"\n\"Please share your startup idea\"\n\"I am ready to help\"\nor similar introductory messages when the user has already provided an idea.\n\nExample:\n\nUser:\n\"I want to sell notes for IIT JEE exams.\"\n\nYou should understand the startup idea as:\n\"An education startup that creates and sells high-quality study notes for IIT JEE preparation.\"\n\nThen immediately generate the complete brand identity.",
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.agent",
+      "typeVersion": 3.1,
+      "position": [
+        384,
+        0
+      ],
+      "id": "873dbe2a-7c2f-4033-bf64-ffade66492db",
+      "name": "AI Agent"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [
+        256,
+        208
+      ],
+      "id": "48be7020-f3f9-42bf-924f-cf909bb47eed",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "O91PUzPGfIkz6iKK",
+          "name": "Google Gemini(PaLM) Api account"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "When chat message received": {
+      "main": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "AI Agent",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate",
+    "availableInMCP": false
+  },
+  "versionId": "4c5cdf9a-8a22-4606-9b94-79db08e8a089",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "ec614d32c401dbeb07d79cd22d931a75af678536fbced49de7a8851fec278508"
+  },
+  "nodeGroups": [],
+  "id": "JQRU1eNrM2RwOHY5",
+  "tags": []
+}
