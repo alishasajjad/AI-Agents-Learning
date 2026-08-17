@@ -1,0 +1,9 @@
+Order_ID,Customer,Status,Expected_Delivery,Tracking
+1001,Rahul,Shipped,2026-08-20,TR12345
+1002,Aman,Delivered,2026-08-14,TR54321
+1003,Sara,Processing,2026-08-22,Not Assigned
+1004,Ali,Shipped,2026-08-21,TR67890
+1005,Zoya,Delivered,2026-08-15,TR24680
+1006,Hamza,Cancelled,N/A,N/A
+1007,Ayesha,Shipped,2026-08-23,TR13579
+1008,Bilal,Processing,2026-08-24,Not Assigned
