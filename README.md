@@ -33,7 +33,7 @@ This repository documents the complete journey of building multiple real-world A
 
 📄 **[AI Startup Branding Agent Workflow JSON](./AI-Startup-Branding-Agent-n8n.json)**
 
-📄 **[ShopEase E-Commerce Support Agent JSON](./ShopEase E-Commerce Support Agent.json)**
+📄 **[ShopEase E-commerce Support Agent JSON](./ShopEase-Ecommerce-Agent-Langflow.json)**
 
 ---
 
